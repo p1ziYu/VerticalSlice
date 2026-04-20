@@ -1,0 +1,89 @@
+System: The cold wind howls through the frozen streets of Belobog.
+System: You are a trashcan, silently observing this stagnant world.
+System: A young Silvermane Guard is pacing restlessly in front of you.
+Guard: Where is it... Where did I drop the patrol notes?
+Guard: If Captain Gepard finds out, I am completely finished.
+Guard: No, he won't yell at me.
+Guard: He will just stare at me with that silent, disappointed look.
+Guard: That is a thousand times worse than being executed!
+Guard: Sigh, my life is a total mess.
+Guard: Even this trashcan looks like it is mocking me!
+Guard: Shut up!
+System: *CLANG!* He kicks your metal shell with all his might.
+System: You feel no pain, only a strange sense of pity for him.
+System: Facing this frustrated soul, how will you react?
+[Choice]|Rattle aggressively|Maintain a cold silence|Emit a hollow but comforting hum|[Bookmark_1_A]|[Bookmark_1_B]|[Bookmark_1_C]
+
+[Bookmark_1_B]
+System: You remain perfectly still, a cold monolith of indifference.
+Guard: ...I'm losing my mind talking to a trashcan.
+Guard: I'm just going to turn myself in to Captain Gepard.
+System: The guard walks away, his shoulders slumped in defeat.
+[Jump]|[Bookmark_Null]
+
+[Bookmark_1_A]
+[Bookmark_1_C]
+Guard: Wait... did this trashcan just make a sound?
+Guard: I must be hallucinating from the freezing cold.
+Guard: I have been standing on duty for fourteen hours straight.
+Guard: My hands are so numb I can barely hold my spear.
+Guard: No one really cares about us low-ranking guards anyway.
+System: He sighs deeply and leans his tired body against your lid.
+System: You can feel his despair seeping through the metal.
+System: How do you respond to this heavy burden?
+[Choice]|Vibrate rhythmically to soothe him|Spit out a bent paperclip|Make a heartless mocking whistle|[Bookmark_2_A]|[Bookmark_2_B]|[Bookmark_2_C]
+
+[Bookmark_2_C]
+Guard: What?! Did you just whistle at me?!
+Guard: You worthless piece of scrap metal!
+Guard: I protect this city with my life, and even the garbage mocks me!
+[Jump]|[Bookmark_Ending_B]
+
+[Bookmark_2_A]
+[Bookmark_2_B]
+Guard: You know, you are actually a pretty good listener.
+Guard: Much better than Captain Gepard.
+Guard: His mind is only filled with "Preservation" and "Duty."
+Guard: I am really tired of having to be perfect every single day.
+Guard: Whatever, I don't need this cigar anymore. I am quitting.
+System: He tosses a [Cigar] into your mouth.
+System: At the same time, a glowing [Flicker of Hope] falls from his heart.
+System: Your trashcan alchemy activates, synthesizing the [Duty Roster]!
+System: It's time to return this and end the farce.
+[Choice]|Launch it out with pinpoint accuracy|Throw it directly at his face|Refuse to spit it out|[Bookmark_3_A]|[Bookmark_3_B]|[Bookmark_3_C]
+
+[Bookmark_3_B]
+System: *BAM!* You launch the roster with maximum velocity directly into his visor.
+Guard: OW! What is wrong with you?!
+Guard: Keep your filthy garbage!
+System: He aggressively throws the roster back at your metal shell.
+[Jump]|[Bookmark_Ending_B]
+
+[Bookmark_3_C]
+System: You decide to keep the roster. The garbage is yours now.
+Guard: ...I guess it's gone forever. I'm doomed.
+Guard: Goodbye, cruel world. Goodbye, Belobog.
+System: The guard walks away into the blizzard, never to be seen again.
+[Jump]|[Bookmark_Null]
+
+[Bookmark_3_A]
+Guard: Wait... my name is written on this?!
+Guard: It is my Duty Roster!
+Guard: Though it smells like banana peels and scrap metal...
+Guard: This is truly a miracle of Belobog!
+Guard: Thank you, Great Trashcan Deity!
+Guard: I am full of energy now! I am going to pull a double shift!
+System: The guard gives you a perfect salute and runs off laughing into the snow.
+[Jump]|[Bookmark_Null]
+
+[Bookmark_Ending_B]
+Guard: That's it. That is the absolute last straw.
+Guard: I've endured the cold, the monsters, the strict captains...
+Guard: But I will NOT endure a sentient, disrespectful trashcan!
+System: *CLICK.* He raises his rifle and aims it directly at your lid.
+Guard: For the Preservation!
+System: *BANG!*
+System: Your vision fades to black. You have been terminated.
+[Jump]|[Bookmark_Null]
+
+[Bookmark_Null]
