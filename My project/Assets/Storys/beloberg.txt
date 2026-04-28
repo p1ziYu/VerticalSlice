@@ -24,6 +24,7 @@ System: The guard walks away, his shoulders slumped in defeat.
 [Bookmark_1_A]
 [Bookmark_1_C]
 Guard: Wait... did this trashcan just make a sound?
+[Event]|GoRelieved
 Guard: I must be hallucinating from the freezing cold.
 Guard: I have been standing on duty for fourteen hours straight.
 Guard: My hands are so numb I can barely hold my spear.
@@ -35,6 +36,7 @@ System: How do you respond to this heavy burden?
 
 [Bookmark_2_C]
 Guard: What?! Did you just whistle at me?!
+[Event]|GoAngry
 Guard: You worthless piece of scrap metal!
 Guard: I protect this city with my life, and even the garbage mocks me!
 [Jump]|[Bookmark_Ending_B]
@@ -62,6 +64,7 @@ System: He aggressively throws the roster back at your metal shell.
 [Bookmark_3_C]
 System: You decide to keep the roster. The garbage is yours now.
 Guard: ...I guess it's gone forever. I'm doomed.
+[Event]|GoPace
 Guard: Goodbye, cruel world. Goodbye, Belobog.
 System: The guard walks away into the blizzard, never to be seen again.
 [Jump]|[Bookmark_Null]
@@ -79,6 +82,7 @@ System: The guard gives you a perfect salute and runs off laughing into the snow
 [Bookmark_Ending_B]
 Guard: That's it. That is the absolute last straw.
 Guard: I've endured the cold, the monsters, the strict captains...
+[Event]|GoAngry
 Guard: But I will NOT endure a sentient, disrespectful trashcan!
 System: *CLICK.* He raises his rifle and aims it directly at your lid.
 Guard: For the Preservation!
