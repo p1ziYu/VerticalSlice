@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 70d55f783576e44588d3ff8b19eba9eb
   - enabled: 1
+    path: Assets/Scenes/IntroScene.unity
+    guid: 650310d242e01144d90db8a61d4a9cfa
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 209e9c5679dbc8e40a9145d139ddea19
+  - enabled: 1
+    path: Assets/Scenes/TransitionBelobog.unity
+    guid: b74bea27b62795144b149b9debd9e571
+  - enabled: 1
     path: Assets/Scenes/Belobog.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects: {}

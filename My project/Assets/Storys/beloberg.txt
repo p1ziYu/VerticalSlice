@@ -1,5 +1,3 @@
-System: The cold wind howls through the frozen streets of Belobog.
-System: You are a trashcan, silently observing this stagnant world.
 System: A young Silvermane Guard is pacing restlessly in front of you.
 Guard: Where is it... Where did I drop the patrol notes?
 Guard: If Captain Gepard finds out, I am completely finished.
