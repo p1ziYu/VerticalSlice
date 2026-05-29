@@ -29,7 +29,12 @@ The most significant architectural update is how this State Machine interacts wi
 3. I call C# methods directly from my Visual Scripting graph using InvokeMember nodes. Specifically, my dialogue graph calls the PlayTypewriter() method in TypewriterEffect.cs to animate text, and the FocusSpeaker() method in SpeakerHighlight.cs to highlight the active character's portrait. It delegates complex implementation details to C#, where such logic is much more efficient and natural to write than in a node graph. <img width="1872" height="848" alt="QQ20260514-164803" src="https://github.com/user-attachments/assets/bffb588f-d839-40f0-93cb-68fb0eb98a9c" />
 4. For Feature (3), please grade my Cross-Scene Global Audio System, which uses a Visual Scripting Singleton pattern to persist music and a KillBGM logic to dynamically destroy it when local audio takes over. You can find the persistent logic attached to the BGM_Manager in the StartMenu scene, and the destruction logic on the KillBGM object in the Belobog scene.
 ## Milestone 3 Devlog
-Milestone 3 Devlog goes here.
+1. Instead of using static textures, this Unlit URP shader generates the blizzard dynamically in the Fragment stage by manipulating UV coordinates. It works by taking a base wind speed and applying standard Time for the downward fall, alongside Sine Time to create a horizontal, wobbling turbulence. These are combined to drive a Tiling And Offset node, which scrolls the UVs through a Voronoi noise generator. Finally, I use One Minus to invert the noise and a Power node to heavily increase the contrast, sharpening the blurry cells into distinct, swaying snowflakes
+    
+    You can find it under Assets/Shader, called BelSnow, another BelSnow 1 is using the regular time instead of Sine time. This shadergraph material is used in the Belobog scene and fully covered for snow
+
+2. For the intro part, I delete the mouse click to skip logic and replace it with a timer based auto transition, since many of my playtesters actually skipped it by mistake, and playtesters suggested that to make the snow direction more dynamic.
+3. I add the snow, like the one I said in the first question, and I add a shake when the guard is angry, more update will be finished before the final.
 ## Milestone 4 Devlog
 Milestone 4 Devlog goes here.
 ## Final Devlog
